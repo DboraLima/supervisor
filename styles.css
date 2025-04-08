@@ -1,0 +1,88 @@
+/* Definir a imagem de fundo para toda a página */
+body {
+    background-image: url('7896019602105-Chocolate_OURO_BRANCO_Lacta_1kg-Chocolate-Ouro_Branco-(2).jpg');
+    background-size: cover; /* A imagem vai cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* A imagem fica fixa durante o scroll */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+    margin: 0; /* Remove as margens da página */
+}
+
+/* Outros estilos podem ser adicionados, como exemplo para o texto */
+h1, h2, p {
+    color: white; /* Para garantir que o texto fique visível sobre o fundo */
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.dialog {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.moving {
+    position: relative;
+    animation: moveButton 2s infinite linear;
+}
+
+@keyframes moveButton {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 30px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Usando flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto dentro do h1 */
+    font-size: 3em; /* Tamanho do texto */
+    color: #ecdf24; /* Cor do texto */
+}
+
